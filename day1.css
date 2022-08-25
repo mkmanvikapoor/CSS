@@ -1,0 +1,31 @@
+h1 {
+    background-color: aqua;
+    text-align: center;
+    text-decoration: wavy;
+
+}
+
+body {
+    background-color: bisque;
+}
+
+div p {
+    background-color: blue;
+    text-align: justify;
+}
+
+div>p {
+    background-color: yellow;
+}
+
+div+p {
+    background-color: yellowgreen;
+}
+
+div~p {
+    background-color: red;
+}
+
+a:link {
+    color: red;
+}
